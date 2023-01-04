@@ -5,5 +5,56 @@
 }
 body
 {
-    
+  font-family: sans-serif;
 }
+#bread-crumb
+{
+position: sticky;
+top:0;
+z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1781);
+    padding: 5 !important;
+}
+.breadcrumb li
+{
+    padding: 0 10px;
+
+}
+.breadcrumb li a
+{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+
+}
+/*------------- Banner kısımı--------*/
+
+#banner
+{
+     background-image: linear-gradient(to right, #a517ba,#5f1781);
+color: #fff;
+padding-top: 4%;
+
+}
+.tanim-title
+{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.bottom-img
+{
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
