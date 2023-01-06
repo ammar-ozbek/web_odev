@@ -25,7 +25,7 @@ body
 
     height: 40px;
     padding-left: 40px;
-    
+    width: 150%;
     
 }
 .navbar-nav li
@@ -46,9 +46,10 @@ body
 {
 position: static;
 top: 0;
-z-index: 5;
+z-index: 10;
 background-color: #f4f3f3;
 font-size: 18px;
+
 
 } 
  .breadcrumb
@@ -58,8 +59,9 @@ font-size: 18px;
 
  .breadcrumb li
 {
-    padding: 0 5px;
-    display: inline-block;
+    padding: 0px 5px;
+    
+    display: inline;
 
 }
 .breadcrumb li a
@@ -78,12 +80,19 @@ font-size: 18px;
 color: rgba(255, 255, 255, 0.839);
 padding-top: 4%;
 
+
 }
-.tanim-title
+.tanim-titl
 {
-    font-size: 80px;
-    font-weight: 400;
+    
+    font-size: 20px;
+    font-weight: 20px;
     margin-top: 100px;
+
+}
+.p1
+{
+    font-size: 20px;
 }
 .bottom-img
 {
@@ -140,8 +149,87 @@ padding-top: 4%;
     margin: 80px;
 
 } 
+/*------------- Banner Hakkindaki kısımı--------*/
  
+#banner-1
+{
+     background-image: linear-gradient(to right, #a517ba,#5f1781);
+color: rgba(255, 255, 255, 0.839);
+padding-top: 4%;
 
+}
+.tanim-title
+{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 100px;
 
+}
+.paragraf
+{
+    font-size: 20px;
+    
+}
+.container1
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1781);
+    color: #fff;
+    
+}
+.title1
+{
+    content: '';
+    background: #ffffff;
+    height: 1px;
+    width: 200px;
+    margin-left: auto;  
+    margin-right: auto;
+    display: block;
+    transform: translateY(10px);
+    color: #fff;
+    font-size: 50px;
 
+}
+.contact-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont-left
+{
+    width: 40%;
+    padding: 3rem ;
+}
+.cont-right
+{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-element
+{
+    margin: 0.5rem0;
+    display: flex;
+    align-items: center;
+
+}
+.cont-right form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea,button
+{
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: black;
+
+}
 
